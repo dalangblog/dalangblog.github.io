@@ -16,6 +16,7 @@ RSS: false
 # weibo_username:     dalangblog
 zhihu_username:     lang-er-lang-er-lang-10
 github_username:    dalangblog
+github_repo: "https://github.com/dalangblog/dalangblog.github.io.git"     # you code repository
 # twitter_username:   dalangblog
 # facebook_username:  dalangblog
 # linkedin_username:  firstname-lastname-idxxxx
