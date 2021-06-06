@@ -1,60 +1,95 @@
-[Hux Blog](https://huangxuan.me)
-================================
+# [DA Lang Blog](http://dalangblog.ga)
 
-> I never expected this to become popular 🤯 .
+Here is the **`English`** version of **`README.md`** .
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+If you want to browse the **`Chinese README.md`** , please 👇
 
+- [中文](https://github.com/dalangblog/dalangblog.github.io/blob/master/_doc/README.zh.md) 
 
-[User Manual 👉](_doc/Manual.md)
---------------------------------------------------
+> Standing on the shoulders of giants
+
+Welcome to my blog👦. 
+
+The tutorial for building the blog was modified from [Hux](https://github.com/Huxpro/huxpro.github.io) 
+
+![](https://github.com/dalangblog/dalangblog.github.io/blob/master/img/avatar.jpg?raw=true)
+
+## [User Manual 👉](https://github.com/dalangblog/dalangblog.github.io/blob/master/_doc/Manual.md)
 
 ### Getting Started
 
-1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
+**`Beginner's Guide`** ：Anyone can successfully build their own blog according to this tutorial, even if they are new to Github.
 
-2. Installed dependencies in the `Gemfile`:
+- You can fork my blog directly, or download the code locally, modify it and upload it to Github
 
-```sh
-$ bundle install 
+- Then change the operation in order to match the individuality of each person.
+
+- The priority is to modify the _config.yml and CNAME files in the root directory.
+
+```shell
+# _config.yml
+title: DA Lang						# Blog site title
+SEOTitle: DA Lang | 博客             # Title displayed on browser tab
+header-img: img/post-home.jpg		# Images displayed on the home page of the blog
+email: xxxxxx@gmail.com				# email
+description: "咸鱼一条！" 			 # Home page description, can also be omitted
+
+# Please refer to the detailed user manual for more details.
 ```
 
-3. Serve the website (`localhost:4000` by default):
+- Customize the domain name, if you do not have a domain name, please delete leave blank.
 
-```sh
-$ bundle exec jekyll serve  # alternatively, npm start
+```shell
+# CNAME
+dalangblog.ga
 ```
 
-### Development (Build From Source)
+- Finally write a test post Hello World!
+- All posts are stored in the _post folder. So after writing your blog, please upload it to this folder.
+- Create a new .txt suffix file and copy the following content, save it and exit.
+- The file name format for blog posts is 'YYYY-MM-DD' + 'post name', so please rename the txt file to conform to the above rule.
+- It is recommended to replace spaces in the file name with '-'
+- Example: 2021-04-29-HelloWorld.md
 
-To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
+```shell
+# Test post: Copy the following content.
+---
+layout:     post
+title:      Hello World ！
+subtitle:   你好，世界 ！
+date:       2021-04-29
+author:     DA Lang
+header-img: img/post-20210429-HelloWorld.jpg
+catalog: true
+tags:
+    - 测试
+---
 
-Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
+**HelloWorld**
 
-Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
+测试 `Markdown` 的页面
 
-This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
+> 你好，世界 ！🌏
 
-
-### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
-
-
-Other Resources
----------------
-
-Ports
-- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
-
-[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
-- Out of date. Helps wanted for updating it on par with the main repo
-
-Translation
-- [🇨🇳  中文文档（有点过时）](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
+# Please refer to the detailed user manual for more details.
+```
 
 
-License
--------
+
+**Interesting to know more? Checkout the [full user manual](_doc/Manual.md) ！**
+
+- [zh  中文文档](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.zh.md)
+- [en  English Documents](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.en.md)
+
+## [image-dalangblog](https://github.com/dalangblog/image-dalangblog)
+
+The location of the images in my blog posts
+
+## Acknowledgments
+
+* [huxpro](https://github.com/Huxpro/huxpro.github.io) 's blog theme
+
+## License
 
 Apache License 2.0.
 Copyright (c) 2015-present Huxpro
