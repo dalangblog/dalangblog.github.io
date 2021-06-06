@@ -12,7 +12,7 @@ Welcome to my blog👦.
 
 The tutorial for building the blog was modified from [Hux](https://github.com/Huxpro/huxpro.github.io) 
 
-![](https://github.com/dalangblog/dalangblog.github.io/blob/master/img/avatar.jpg?raw=true)
+![](https://github.com/dalangblog/dalangblog.github.io/blob/main/img/avatar.jpg?raw=true)
 
 ## [User Manual 👉](https://github.com/dalangblog/dalangblog.github.io/blob/master/_doc/Manual.md)
 
