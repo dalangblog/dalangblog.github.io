@@ -1,10 +1,10 @@
-# [DA Lang Blog](http://dalangblog.ga)
+# [DA Lang Blog](https://dalangblog.github.io)
 
 Here is the **`English`** version of **`README.md`** .
 
 If you want to browse the **`Chinese README.md`** , please 👇
 
-- [中文](https://github.com/dalangblog/dalangblog.github.io/blob/master/_doc/README.zh.md) 
+- [中文](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/README.zh.md) 
 
 > Standing on the shoulders of giants
 
@@ -14,7 +14,7 @@ The tutorial for building the blog was modified from [Hux](https://github.com/Hu
 
 ![](https://github.com/dalangblog/dalangblog.github.io/blob/main/img/avatar.jpg?raw=true)
 
-## [User Manual 👉](https://github.com/dalangblog/dalangblog.github.io/blob/master/_doc/Manual.md)
+## [User Manual 👉](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/Manuals.en.md)
 
 ### Getting Started
 
@@ -78,8 +78,8 @@ tags:
 
 **Interesting to know more? Checkout the [full user manual](_doc/Manual.md) ！**
 
-- [zh  中文文档](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.zh.md)
-- [en  English Documents](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.en.md)
+- [zh  中文文档](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/Manuals.zh.md)
+- [en  English Documents](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/Manuals.en.md)
 
 ## [image-dalangblog](https://github.com/dalangblog/image-dalangblog)
 
@@ -94,5 +94,5 @@ The location of the images in my blog posts
 Apache License 2.0.
 Copyright (c) 2015-present Huxpro
 
-Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
-Copyright (c) 2013-2016 Blackrock Digital LLC.
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE)
+Copyright (c) 2013-2021 Start Bootstrap LLC
