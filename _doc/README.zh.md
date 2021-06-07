@@ -1,6 +1,6 @@
-# [大郎的博客](http://dalangblog.ga)
+# [大郎的博客](https://dalangblog.github.io)
 
-这里是**`中文版`** 的 **`README.md`**。
+这里是 **`中文版`** 的 **`README.md`**。
 
 如果要浏览 **`English README.md`** ，请返回此项目的主页查看 👇！
 
@@ -12,7 +12,7 @@
 
 建立博客的教程是由[Hux](https://github.com/Huxpro/huxpro.github.io)修改的。
 
-![](https://github.com/dalangblog/dalangblog.github.io/blob/master/img/avatar.jpg?raw=true)
+![](https://github.com/dalangblog/dalangblog.github.io/blob/main/img/avatar.jpg?raw=true)
 
 ## 用户手册 👉
 
@@ -76,10 +76,10 @@ tags:
 
 
 
-**有兴趣了解更多？请查看[完整的用户手册](_doc/Manual.md) ！**
+**有兴趣了解更多？请查看[完整的用户手册](Manuals.en.md) ！**
 
-- [zh  中文文档](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.zh.md)
-- [en  English Documents](https://github.com/dalangblog/dalangblog.github.io/blob/master/doc/Manuals.en.md)
+- [zh  中文文档](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/Manuals.zh.md)
+- [en  English Documents](https://github.com/dalangblog/dalangblog.github.io/blob/main/_doc/Manuals.en.md)
 
 ## [image-dalangblog](https://github.com/dalangblog/image-dalangblog)
 
@@ -94,5 +94,5 @@ tags:
 Apache License 2.0.
 Copyright (c) 2015-present Huxpro
 
-Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
-Copyright (c) 2013-2016 Blackrock Digital LLC.
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE)
+Copyright (c) 2013-2021 Start Bootstrap LLC
