@@ -197,6 +197,7 @@ Ctrl + 1\2\3\...	# 数字为几，就几级标题
 
 - [Typora](https://typora.io/) 官网
 - `打字机的图片:` 该图片由 [Free-Photos](https://pixabay.com/zh/photos/typewriter-book-notes-paper-801921/) 在 [Pixabay](https://pixabay.com/zh/) 上发布
+
 ---
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
