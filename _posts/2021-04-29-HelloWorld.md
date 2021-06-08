@@ -5,6 +5,7 @@ subtitle:   你好，世界 ！
 date:       2021-04-29
 author:     DA Lang
 header-img: img/post-20210429-HelloWorld.jpg
+multilingual: true
 catalog: true
 tags:
     - 测试
