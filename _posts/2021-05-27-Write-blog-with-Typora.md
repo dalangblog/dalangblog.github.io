@@ -4,12 +4,13 @@ title:      使用Typora工具优雅的输出博客文章
 subtitle:   一款优秀的Markdown文本编辑器
 date:       2021-05-29
 author:     DA Lang
-header-img: img/post-20210529-Typora.jpg
+header-img: https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210529/typewriter-801921_1280.jpg
 catalog: true
 tags:
     - 软件
     - Markdown
     - Typora
+    - CC BY-SA 4.0
 ---
 
 # 1 Typora工具
