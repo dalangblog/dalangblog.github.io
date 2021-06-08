@@ -32,15 +32,15 @@ tags:
 
 ```shell
 # 博客的开头的格式说明
----												# --- + 回车
-layout:     post								#
-title:      使用Typora工具优雅的输出博客文章			# 标题
-subtitle:   一款优秀的Markdown文本编辑器			  # 小标题
-date:       2021-05-29							# 创建日期
-author:     DA Lang								# 作者
-header-img: img/post-20210529-Typora.jpg		# 文章开头顶部显示的图片
-catalog: true									# 默认即可
-tags:											# 标签
+---						# --- + 回车
+layout:     post				#
+title:      使用Typora工具优雅的输出博客文章	# 标题
+subtitle:   一款优秀的Markdown文本编辑器		# 小标题
+date:       2021-05-29				# 创建日期
+author:     DA Lang				# 作者
+header-img: img/post-20210529-Typora.jpg	# 文章开头顶部显示的图片
+catalog: true					# 默认即可
+tags:						# 标签
     - 软件
     - XXX
     - ...
@@ -85,8 +85,8 @@ Ctrl + shift + i
 #### 1.1.4 文章内跳转
 
 ```shell
-[跳转表格](# 1.1.13 表格)			  # Ctrl + 点击
-					 	# Ctrl + J
+[跳转表格](# 1.1.13 表格)	# Ctrl + 点击
+				# Ctrl + J
 ```
 
 ~~博客中无效 [跳转表格](# 1.1.13 表格)~~
@@ -120,16 +120,16 @@ Github中可以生效（可用来写README.md）
 #### 1.1.8 分级标题
 
 ```shell
-# + 空格 + 标题内容   		# 几个'#'，就几级标题
-Ctrl + 1\2\3\...			# 数字为几，就几级标题
+# + 空格 + 标题内容	# 几个'#'，就几级标题
+Ctrl + 1\2\3\...	# 数字为几，就几级标题
 ```
 
 #### 1.1.9 黑⚪序号
 
 ```shell
--/+/* 空格   			# 第一次输入任意一个'-'，或'+',或'*'加空格为实心黑●
-					 # 第二次输入任意一个'-'，或'+',或'*'加空格则为空心⚪
-					 # 第三次输入任意一个'-'，或'+',或'*'加空格则为实心黑方块■
+-/+/* 空格	# 第一次输入任意一个'-'，或'+',或'*'加空格为实心黑●
+		# 第二次输入任意一个'-'，或'+',或'*'加空格则为空心⚪
+		# 第三次输入任意一个'-'，或'+',或'*'加空格则为实心黑方块■
 ```
 
 - - -
@@ -137,11 +137,11 @@ Ctrl + 1\2\3\...			# 数字为几，就几级标题
 #### 1.1.10 字体格式
 
 ```shell
-*斜体* , _斜体_		# Ctrl + I
-**粗体**			 # Ctrl + B
-***加粗斜体***		# Ctrl + B + Ctrl + I
-~~删除线~~			# Alt + Shift + 5 	
-<u>下划线</u>		# Ctrl + U
+*斜体* , _斜体_	# Ctrl + I
+**粗体**	# Ctrl + B
+***加粗斜体***	# Ctrl + B + Ctrl + I
+~~删除线~~	# Alt + Shift + 5 	
+<u>下划线</u>	# Ctrl + U
 ***分割线 , ---	# Ctrl + 
 ```
 
@@ -197,4 +197,6 @@ Ctrl + 1\2\3\...			# 数字为几，就几级标题
 
 - [Typora](https://typora.io/) 官网
 - `打字机的图片:` 该图片由 [Free-Photos](https://pixabay.com/zh/photos/typewriter-book-notes-paper-801921/) 在 [Pixabay](https://pixabay.com/zh/) 上发布
+---
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
