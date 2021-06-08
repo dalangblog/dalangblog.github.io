@@ -19,4 +19,5 @@ I have it on the GitHub homepage [👉GitHub-DA Lang](https://github.com/dalangb
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons License" style="display:inline;margin:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 <br />Posts in the blog is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.**If there are exceptions, a separate statement will be added at the end of the post.**
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+<strong>If there are exceptions, a separate statement will be added at the end of the post.</strong>
