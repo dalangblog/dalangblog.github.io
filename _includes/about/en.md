@@ -13,3 +13,7 @@ I have it on the GitHub homepage [👉GitHub-DA Lang](https://github.com/dalangb
 - [Huxpro](https://github.com/Huxpro/huxpro.github.io)'s blog topic
 - [Google Analytics](https://analytics.google.com/analytics)
 - Most of the images referenced in this blog are from [Poxabay Photo Library](https://pixabay.com/zh/)
+
+---
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Posts in the blog is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.If there are exceptions, a separate statement will be added at the end of the post.
