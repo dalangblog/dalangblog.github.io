@@ -189,6 +189,28 @@ Ctrl + 1\2\3\...	# 数字为几，就几级标题
 | ---- | ---- | ---- | ---- |
 |      |      |      |      |
 
+#### 1.1.14 HTML标签
+
+由于博客CSS样式是全局，所以无法利用CSS样式局部设置。好在博客支持HTML标签属性，如此想实现什么都可以插入HTML标签实现
+
+```shell
+# 首先找到CSS定义的样式，例如图片的CSS样式如下👇，对照修改即可
+}.post-container img {
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin:1.5em auto 1.6em auto
+}
+# 直接插入图片，图片默认会居中显示且上下会增加间距
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+# html标签，设置为左对齐，取消增加的间距
+<img alt="知识共享许可协议" style="display:inline;margin:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+```
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+<img alt="知识共享许可协议" style="display:inline;margin:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+
 # 2 突如其来的结尾
 
 看到这里的你,已经知道大部分常用的Markdown的写作规范,开始编写属于你的第一篇`.md文件`吧!
@@ -200,4 +222,5 @@ Ctrl + 1\2\3\...	# 数字为几，就几级标题
 
 ---
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+<img alt="知识共享许可协议" style="display:inline;margin:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
