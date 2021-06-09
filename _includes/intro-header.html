@@ -3,11 +3,11 @@
     @param {boolean} short
 {% endcomment %}
 
+<!-- Add img url -->
 {% if include.type == 'post' %}
 <style type="text/css">
     header.intro-header{
         position: relative;
-        <!-- Add img url -->
         background-image: url('{% if page.header-img contains "https://" %}{{ page.header-img }}{% else %}{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}{% endif %}');
         background: {{ page.header-bg-css }};
     }
