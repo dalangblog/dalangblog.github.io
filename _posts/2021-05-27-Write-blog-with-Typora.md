@@ -4,8 +4,9 @@ title:      使用Typora工具优雅的输出博客文章
 subtitle:   一款优秀的Markdown文本编辑器
 date:       2021-05-29
 author:     DA Lang
-header-img: "https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210429/earth-1617121_1280.jpg"
+header-img: https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210529/typewriter-801921_1280.jpg
 catalog: true
+multilingual: true
 tags:
     - 软件
     - Markdown
@@ -34,18 +35,21 @@ tags:
 ```shell
 # 博客的开头的格式说明
 ---						# --- + 回车
-layout:     post				#
-title:      使用Typora工具优雅的输出博客文章	# 标题
-subtitle:   一款优秀的Markdown文本编辑器		# 小标题
-date:       2021-05-29				# 创建日期
-author:     DA Lang				# 作者
-header-img: img/post-20210529-Typora.jpg	# 文章开头顶部显示的图片
-catalog: true					# 默认即可
-tags:						# 标签
+layout:     post				# 帖子-基本示例（必备）
+title:      使用Typora工具优雅的输出博客文章	# 标题-基本示例（必备）
+subtitle:   一款优秀的Markdown文本编辑器		# 小标题（可选）
+date:       2021-05-29				# 创建日期（可选）
+author:     DA Lang				# 作者（可选）
+header-img: img/post-20210529-Typora.jpg	# 文章开头顶部显示的图片（可选）
+						# 没有此项默认为首页图片，建议~1280px大小以上
+						# 默认选择img/xxx.jpg，也可直接引用外链仅支持https//
+multilingual: true				# “true” 后，文章有中文和英译两版（可选）
+catalog: true					# 启用文章目录（可选）
+tags:						# 标签（可选）
     - 软件
     - XXX
     - ...
-# 直接拷贝
+# 例如我的默认使用的头文件，可以直接拷贝
 layout:     post
 title:      使用Typora工具优雅的输出博客文章
 subtitle:   一款优秀的Markdown文本编辑器
@@ -86,11 +90,12 @@ Ctrl + shift + i
 #### 1.1.4 文章内跳转
 
 ```shell
-[跳转表格](# 1.1.13 表格)	# Ctrl + 点击
-				# Ctrl + J
+# ‘.’都省略掉，空格用‘-’代替
+[跳转表格](#1113-表格)	# Ctrl + 点击
+			# Ctrl + J
 ```
 
-~~博客中无效 [跳转表格](# 1.1.13 表格)~~
+[跳转表格](#1113-表格)
 
 Github中可以生效（可用来写README.md）
 
@@ -157,10 +162,12 @@ Ctrl + 1\2\3\...	# 数字为几，就几级标题
 #### 1.1.11 任务列表
 
 ```shell
-点击‘菜单’选择‘任务列表’
-吃饭
-睡觉
-打豆豆
+# 点击‘菜单’选择‘任务列表’
+# 或者输入‘-’ + ‘空格’ + ‘[’ + ‘空格’ + ‘]’ +‘空格’+“XXX”
+# √ 则将[]中的空格替换成x即可 ‘[’ + ‘x’ + ‘]’
+- [x] 吃饭
+- [ ] 睡觉
+- [ ] 打豆豆
 ```
 
 - [x] 吃饭
