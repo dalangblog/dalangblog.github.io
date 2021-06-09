@@ -6,7 +6,6 @@ date:       2021-05-29
 author:     DA Lang
 header-img: https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210529/typewriter-801921_1280.jpg
 catalog: true
-multilingual: true
 tags:
     - 软件
     - Markdown
