@@ -5,7 +5,6 @@ subtitle:   你好，世界 ！
 date:       2021-04-29
 author:     DA Lang
 header-img: https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210429/earth-1617121_1280.jpg
-multilingual: true
 catalog: true
 tags:
     - 测试
