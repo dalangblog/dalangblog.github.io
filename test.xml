@@ -8,7 +8,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <!-- post List -->
-{% for post in paginator.posts %}
+{% for post in paginator.total_posts %}
 <url>
   <loc>{{ post.url | prepend: site.baseurl }}</loc>
   <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
