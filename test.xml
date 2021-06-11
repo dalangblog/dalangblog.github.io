@@ -11,11 +11,7 @@
 {% for post in paginator.posts %}
 <url>
   <loc>{{ post.url | prepend: site.baseurl }}</loc>
-  {% if post.updated %}
-  <lastmod>{{ post.updated | date: "%Y-%m-%d" }}</lastmod>
-  {% else %}
   <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-  {% endif %}
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
