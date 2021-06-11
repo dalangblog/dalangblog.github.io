@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<!-- post List -->
+{% for post in paginator.posts %}
+<url>
+  <loc>{{ post.url | prepend: site.baseurl }}</loc>
+  {% if post.updated %}
+  <lastmod>{{ post.updated | date: "%Y-%m-%d" }}</lastmod>
+  {% else %}
+  <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+{% endfor %}
+
+</urlset>
