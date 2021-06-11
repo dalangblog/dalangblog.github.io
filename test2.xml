@@ -21,7 +21,7 @@
 <!-- post List 2 -->
 {% for post in site.posts %}
 <url>
-  <loc><a href="{{ post.url | prepend: site.baseurl }}</a></loc>
+  <loc>{{ post.url | prepend: site.baseurl }}</loc>
   <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
