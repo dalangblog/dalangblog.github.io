@@ -15,6 +15,7 @@
   <lastmod>{{ post.updated | date: "%Y-%m-%d" }}</lastmod>
   {% else %}
   <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+  {% endif %}
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
