@@ -1,3 +1,7 @@
+---
+sitemap:
+    priority: 0.7
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- add sitemap css -->
 <!-- <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?> -->
@@ -22,17 +26,6 @@
 {% for post in site.posts %}
 <url>
   <loc>{{ post.url | prepend: site.baseurl }}</loc>
-  <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.90</priority>
-</url>
-{% endfor %}
-    
-
-<!-- post List 3 -->
-{% for post in site.posts %}
-<url>
-  <loc><a href="{{ site.url }}{{ post.url }}</a></loc>
   <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
