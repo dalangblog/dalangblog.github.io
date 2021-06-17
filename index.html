@@ -22,8 +22,10 @@ description: "「干饭人，干饭魂！」"
             {% endif %}
         </div>
     </a>
+    <!-- Add Last Update Time -->
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {% if post.lastdate %}. Last updated on {{ post.lastdate | date: "%B %-d, %Y" }}{% endif %}
     </p>
 </div>
 <hr>
