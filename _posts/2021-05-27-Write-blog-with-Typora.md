@@ -3,6 +3,7 @@ layout:     post
 title:      使用Typora工具优雅的输出博客文章
 subtitle:   一款优秀的Markdown文本编辑器
 date:       2021-05-29
+lastdate:   2021-06-18
 author:     DA Lang
 header-img: https://cdn.jsdelivr.net/gh/dalangblog/image-dalangblog@main/20210529/typewriter-801921_1280.jpg
 catalog: true
@@ -114,7 +115,7 @@ Github中可以生效（可用来写README.md）
 
 > 这是一条引用
 
-#### 1.1.7 高亮效果
+#### 1.1.7 单行代码
 
 ````shell
 `X`，``XX``效果一样
