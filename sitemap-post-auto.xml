@@ -1,6 +1,7 @@
 ---
-title: sitemap
-published: false
+<!-- empty！Introducing the Liquid tag and variables -->
+<!-- title: sitemap -->
+<!-- published: false -->
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- add sitemap css -->
