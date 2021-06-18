@@ -82,8 +82,8 @@ netease_comment: false
 ba_track_id: 677384e99f1772c793d4e8cc57a84430     # your track id
 
 # Google Analytics
-ga_track_id: 'UA-195407239-1'            # Format: UA-xxxxxx-xx
-ga_domain: dalangblog.ga
+GA_MEASUREMENT_ID: 'G-92VFNM796N'            # Format: G-XXXXXXXXXX or UA-xxxxxx-xx
+# ga_track_id                                # Format: UA-xxxxxx-xx
 
 
 
