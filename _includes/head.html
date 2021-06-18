@@ -37,7 +37,7 @@
     <meta property="og:site_name" content="{{ site.SEOTitle }}">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
-
+    
     <!-- Web App Manifest -->
     <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
 
@@ -73,7 +73,10 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
-
+    
+    <!-- Add Google Analytics -->
+    {% include google_analytics.html %}
+    
     <!-- Google AdSense -->
     <!-- <script data-ad-client="ca-pub-6487568398225121" async -->
     <!--    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
