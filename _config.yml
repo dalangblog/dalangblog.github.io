@@ -84,7 +84,10 @@ ba_track_id: 677384e99f1772c793d4e8cc57a84430     # your track id
 # Google Analytics
 GA_MEASUREMENT_ID: 'G-7S6W3TJFPH'            # Format: G-XXXXXXXXXX or UA-xxxxxx-xx
 # ga_track_id                                # Format: UA-xxxxxx-xx
-
+output:
+  html_document:
+    includes: 
+      in_header: google_analytics.html
 
 
 # Sidebar settings
