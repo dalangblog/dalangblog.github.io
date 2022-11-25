@@ -5,7 +5,7 @@ header-img: img/post-home.jpg
 email: dalang1hao@gmail.com
 description: "咸鱼一条！"
 keyword: "DA Lang, dalang, 大郎, 大郎的博客, dalangblog ,斐讯, N1, T1, 博客, 个人网站, 互联网, Web, ios, Apple, iPhone, OpenWrt, OpenClash"
-url: "https://dalangblog.ga"              # your host, for absolute URL
+url: "https://dalangblog.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
